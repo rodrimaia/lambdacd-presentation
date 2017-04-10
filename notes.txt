@@ -1,0 +1,23 @@
+LambdaCD provides teams with a way to define Continuous Delivery pipelines in Clojure. This brings the benefits of Infrastructure as code to the configuration of CD servers: source-control management, unit testing, refactoring and code reuse. In the "pipelines as code" space, LambdaCD stands out for being lightweight, self-contained and fully programmable, allowing teams to work with their pipelines in the same way that they do with their code.
+
+Pipelines as code
+
+ADOPT?
+Teams are pushing for automation across their environments, including their development infrastructure. Pipelines as code is defining the deployment pipeline through code instead of configuring a running CI/CD tool. LambdaCD, Drone, GoCD and Concourse are examples that allow usage of this technique. Also, configuration automation tools for CI/CD systems like GoMatic can be used to treat the deployment pipeline as code—versioned and tested.
+
+History for Pipelines as code
+
+MAR 2017
+ADOPT?
+Teams are pushing for automation across their environments, including their development infrastructure. Pipelines as code is defining the deployment pipeline through code instead of configuring a running CI/CD tool. LambdaCD, Drone, GoCD and Concourse are examples that allow usage of this technique. Also, configuration automation tools for CI/CD systems like GoMatic can be used to treat the deployment pipeline as code—versioned and tested.
+
+NOV 2016
+ADOPT?
+Teams are pushing for automation across their environments, including their development infrastructure. Pipelines as code is defining the deployment pipeline through code instead of configuring a running CI/CD tool. LambdaCD, Drone, GoCD and Concourse are examples that allow usage of this technique. Also, configuration automation tools for CI/CD systems like GoMatic can be used to treat the deployment pipeline as code—versioned and tested.
+
+
+Complex continuous delivery setups that were hard to understand, brittle and error prone served as his motivation to find and implement a better way. In our interview, Florian makes a passionate case for building your pipelines as code, like you build your microservices. 
+
+LambdaCD makes it simple to develop, test, deploy and run build pipelines just like any other application, using such powerful tools like a functional programming language, version control, tests and refactoring. With pipelines being just regular Clojure applications, the library supports their development by providing auxiliary tooling, like a user interface or implementations of common build steps.
+
+Finally, Florian outlines how the project evolved from a thought experiment into a library under active use and development and gives hints for upcoming contributors that want to help in shaping LambdaCD’s future.

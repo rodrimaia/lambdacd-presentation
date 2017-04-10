@@ -1,27 +1,79 @@
 title: LambdaCD
 controls: true
-theme: vtrbtf/cleaver-tw
 output: index.html
+controls: false
+style: basic-style.css
+
 
 --  pink
 
 # LambdaCD
+![alt](img/lambdacd-logo.png)
+## Uma olhada freestyle
 
-## O que é
+-- 
+
+### O que é?
+
+Ferramenta de CI
 
 -- 
 
-# Motivacao 
-## Porque usamos 
-## Diferencas para outras ferramentas
+# O que é CI?
+
+--
+
+# Histórico Tech Radar
+
+## ASSESS - Novembro 2016
+## ASSESS - Hoje
+
+--
+
+# Motivação 1
+
+## Pipeline como código para servidores de Integração/Entrega Contínua
 
 -- 
+
+# Pipeline como código 
+
+O que é? 
+
+
+--
+
+# Exemplo
+
+# image jenkins
+# código do lambidacd
+
+--
+
+# Histórico Tech Radar
+
+
+--
+
+# Testes
+
+# talvez um teste aqui?!
+
+--
+
+# Outros
+
+* aplicação clojure comum
+* versionamento
+* refactoring 
+
+--
+
+# Ui Improvements
+
+
+--
+
 
 # Live
 
-(precisamos de uma aplicação)
-
-## Criar do zero
-## Adicionar um Step
-## Adicionar outro Step
-## Adicionar um step Manual
