@@ -16,7 +16,8 @@ Mateus: [@mrcambota]()
 Rodrigo: [@rodrigomaia17]()
 
 --
-# CI?
+## **Uma ferramenta de CI**
+<img src="img/ci.png" width="800"></img>
 
 --
 # Por que o jenkins não resolve o nosso problema?
@@ -25,11 +26,11 @@ Rodrigo: [@rodrigomaia17]()
 # Pipeline como código
 
 -- 
-## **Isso**
+## **Jenkins Setup**
 ![alt](img/jenkins.png)
 
 --
-## **Vira isso**
+## **Clojure Setup**
 <img src="img/clojure.png" width="800"></img>
 
 --
@@ -57,3 +58,10 @@ Rodrigo: [@rodrigomaia17]()
 
 --
 # GIMME CODE!
+
+--
+# OBRIGADO!
+##Dúvidas?
+ - www.lambda.cd
+ - github.com/flosell/lambdacd
+ - @mcambota @rodrigomaia17
