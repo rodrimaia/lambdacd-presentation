@@ -11,10 +11,14 @@
   (git/with-git upstream-repo steps))
 
 (defn build-image [args ctx]
-  (shell/bash ctx (:cwd args) "docker build ." ))
+  (shell/bash ctx (:cwd args) "docker build . -t seminovos" ))
 
 (defn run-tests [args ctx]
   (shell/bash ctx (:cwd args) "docker run --rm seminovos npm run test" ))
 
-(defn coverage [args ctx]
-  (shell/bash ctx (:cwd args) "docker run --rm seminovos npm run test-cover" ))
+(defn stop-container [args ctx]
+  (shell/bash ctx (:cwd args) "docker rm $(docker stop $(docker ps -a -q --filter ancestor=seminovos --format='{{.ID}}')) || true" ))
+
+(defn start-container [args ctx]
+  (shell/bash ctx (:cwd args) "docker run -d -p 3000:3000 -v $(pwd)/db:/home/seminovos/db seminovos:latest npm run start"))
+

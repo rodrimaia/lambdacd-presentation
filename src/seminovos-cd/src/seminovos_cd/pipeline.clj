@@ -18,4 +18,5 @@
              ))
     (alias "Deploy"
            (with-repo
-             deploy))))
+             stop-container
+             start-container))))
