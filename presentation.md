@@ -5,75 +5,55 @@ controls: false
 style: basic-style.css
 
 
---  pink
-
+-- 
 # LambdaCD
-![alt](img/lambdacd-logo.png)
 ## Uma olhada freestyle
 
 -- 
+# Nós
+Mateus: [@mrcambota]()
 
-### O que é?
+Rodrigo: [@rodrigomaia17]()
 
-Ferramenta de CI
+--
+# CI?
+
+--
+# Por que o jenkins não resolve o nosso problema?
 
 -- 
-
-# O que é CI?
-
---
-
-# Histórico Tech Radar
-
-## ASSESS - Novembro 2016
-## ASSESS - Hoje
-
---
-
-# Motivação 1
-
-## Pipeline como código para servidores de Integração/Entrega Contínua
+# Pipeline como código
 
 -- 
-
-# Pipeline como código 
-
-O que é? 
-
+## **Isso**
+![alt](img/jenkins.png)
 
 --
-
-# Exemplo
-
-# image jenkins
-# código do lambidacd
+## **Vira isso**
+<img src="img/clojure.png" width="800"></img>
 
 --
-
-# Histórico Tech Radar
-
-
---
-
-# Testes
-
-# talvez um teste aqui?!
+## **E depois**
+<img src="img/workflow.png" width="800"></img>
 
 --
+# **Histórico Tech Radar**
 
+* **ADOPT** - Novembro 2016
+* **ADOPT** - Hoje
+
+-- 
 # Outros
 
 * aplicação clojure comum
 * versionamento
-* refactoring 
+* refactoring
 
 --
+# **Histórico Tech Radar**
 
-# Ui Improvements
-
+* **ASSESS** - Novembro 2016
+* **ASSESS** - Hoje
 
 --
-
-
-# Live
-
+# GIMME CODE!
